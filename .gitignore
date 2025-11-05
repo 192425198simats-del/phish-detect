@@ -1,0 +1,29 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+.env
+.env.*
+
+# Tooling
+.vscode/
+.idea/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data directories
+data/raw/
+data/processed/
