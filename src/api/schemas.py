@@ -13,6 +13,6 @@ class URLResponse(BaseModel):
     """Model prediction output structure for URL classification."""
 
     url: str
-    prediction_label: str
+    prediction_label: int
     score: float
     message: str
