@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PhishGuard Scanner</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 16px;
+        width: 260px;
+      }
+      #scan-button {
+        display: block;
+        width: 100%;
+        padding: 8px 0;
+        margin-bottom: 12px;
+      }
+      #scan-result {
+        min-height: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PhishGuard</h1>
+    <button id="scan-button">Scan URL</button>
+    <div id="scan-result">
+      <!-- TODO: Display prediction details returned from popup.js -->
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
